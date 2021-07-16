@@ -1,0 +1,24 @@
+{
+  "name": "gakkaten",
+  "version": "1.0.0",
+  "description": "苫小牧高専 学科展 Webサイト",
+  "main": "index.js",
+  "scripts": {
+    "sass": "npx sass --watch ./src/style/index.scss ./src/style/index.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomakosen-gakkaten/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomakosen-gakkaten/website/issues"
+  },
+  "homepage": "https://github.com/tomakosen-gakkaten/website#readme",
+  "devDependencies": {
+    "sass": "^1.35.2"
+  }
+}

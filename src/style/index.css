@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-left: 2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: var(--base);
+}
+body > header {
+  display: flex;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  margin: 0.6em;
+  background-color: var(--primary);
+  color: var(--text-primary);
+  padding: 0.4em 0.6em;
+  border-radius: 14px;
+}
+body > header img {
+  height: 3.6em;
+  margin-right: 0.4em;
+}
+
+#top {
+  padding: 1em;
+}
+#top h3 {
+  margin-bottom: 0.6em;
+  border-bottom: 1px solid var(--primary);
+}
+
+.tile {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.tile div {
+  background-color: var(--card);
+  margin: 0.6em;
+  padding: 0.6em;
+  border-radius: 5px;
+  min-width: 14em;
+}
+.tile div button {
+  border: none;
+  color: var(--text-primary);
+  background-color: var(--primary);
+  padding: 0.3em;
+  border-radius: 5px;
+}
+
+:root {
+  --base: #f0ffdf;
+  --primary: #169c70;
+  --text-primary: #fff;
+  --card: #5f9ea03f;
+}
+
+/*# sourceMappingURL=index.css.map */

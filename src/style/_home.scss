@@ -1,0 +1,27 @@
+#top {
+  padding: 1em;
+  h3 {
+    margin-bottom: 0.6em;
+    border-bottom: 1px solid var(--primary);
+  }
+}
+
+.tile {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  div {
+    background-color: var(--card);
+    margin: 0.6em;
+    padding: 0.6em;
+    border-radius: 5px;
+    min-width: 14em;
+    button {
+      border: none;
+      color: var(--text-primary);
+      background-color: var(--primary);
+      padding: 0.3em;
+      border-radius: 5px;
+    }
+  }
+}
