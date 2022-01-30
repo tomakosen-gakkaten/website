@@ -1,11 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+
+:root {
+  font-size: 1.4rem;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: lighter;
 }
 
 li {
-  margin-left: 2em;
+  margin-left: 2rem;
 }
 
 img {

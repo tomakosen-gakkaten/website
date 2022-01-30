@@ -2,19 +2,36 @@ body {
   max-width: 1024px;
   margin: 0 auto;
   background-color: var(--base);
-  > header {
-    display: flex;
-    align-items: center;
-    top: 0;
-    position: sticky;
-    margin: 0.6em;
-    background-color: var(--primary);
-    color: var(--text-primary);
-    padding: 0.4em 0.6em;
-    border-radius: 14px;
-    img {
-      height: 3.6em;
-      margin-right: 0.4em;
+  #root {
+    margin: 0.6rem;
+    h2,
+    h3 {
+      margin-bottom: 0.6rem;
+      border-bottom: 1px solid var(--primary);
+    }
+    > header {
+      top: 0;
+      position: sticky;
+      background-color: var(--primary);
+      color: var(--text-primary);
+      border-radius: 1rem;
+      > div {
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        padding: 0.4rem 0.6rem;
+        &:hover {
+          color: var(--text-primary-hover);
+        }
+        h1 {
+          font-size: 1.6rem;
+          line-height: 1.6rem;
+        }
+        img {
+          height: 3rem;
+          margin-right: 0.4rem;
+        }
+      }
     }
   }
 }
