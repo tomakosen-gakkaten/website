@@ -1,0 +1,15 @@
+{
+  "short_name": "情報学科展",
+  "name": "苫小牧高専 情報学科展",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#169c70",
+  "background_color": "#f0ffdf"
+}
