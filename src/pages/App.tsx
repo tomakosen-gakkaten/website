@@ -8,10 +8,12 @@ export const App = () => {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        {groupData.map((data) => (
-          <Route path={data.path} element={data.elm} />
-        ))}
+        <Route path="/website">
+          <Route index element={<Home />} />
+          {groupData.map((data) => (
+            <Route path={data.path} element={data.elm} />
+          ))}
+        </Route>
       </Routes>
     </BrowserRouter>
   );

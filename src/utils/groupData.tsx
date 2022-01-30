@@ -15,37 +15,37 @@ export const groupData: Array<{
   {
     name: "ロボット班",
     desc: "ロボット",
-    path: "/robot",
+    path: "robot",
     elm: <Robot />,
   },
   {
     name: "VB班",
     desc: "バーチャルボウリング",
-    path: "/vb",
+    path: "vb",
     elm: <VB />,
   },
   {
     name: "ネトゲ班",
     desc: "ネットワークゲーム",
-    path: "/netoge",
+    path: "netoge",
     elm: <NetGame />,
   },
   {
     name: "VR班",
     desc: "VR",
-    path: "/vr",
+    path: "vr",
     elm: <VR />,
   },
   {
     name: "プリクラ班",
     desc: "プリクラ",
-    path: "/puri",
+    path: "puri",
     elm: <Puri />,
   },
   {
     name: "装飾班",
     desc: "装飾",
-    path: "/deco",
+    path: "deco",
     elm: <Deco />,
   },
 ];

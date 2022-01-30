@@ -6,7 +6,7 @@ export const Header = () => {
     <header>
       <div
         onClick={() => {
-          navigate("/");
+          navigate("/website");
         }}
       >
         <img src={`${process.env.PUBLIC_URL}/icon.png`} alt="icon" />
