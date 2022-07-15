@@ -8,11 +8,6 @@ export const Deco = () => {
       装飾班では当日の情報棟の装飾や案内，入り口に展示する置物の修復・制作，
         プロジェクションマッピングなどを行います．
       </p>
-
-      <div className="img">
-        <img src={ProjectionMapping} alt="プロジェクションマッピング" loading="lazy" />
-        <p>プロジェクションマッピング</p>
-      </div>
       
       <BackToTop />
     </div>
