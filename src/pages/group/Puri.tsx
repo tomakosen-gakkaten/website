@@ -1,4 +1,5 @@
 import { BackToTop } from "../../components/BackToTop";
+import PURI from "./img/puri.png";
 
 export const Puri = () => {
   return (
@@ -14,7 +15,7 @@ export const Puri = () => {
         その他、スタンプ等の追加機能の開発も検討しています。
       </p>
       <div className="img">
-        <img src="./img/purikura_sample.png" alt="プリクラの画面" loading="lazy" />
+        <img src={PURI} alt="プリクラの画面" loading="lazy" width="50%"/>
         <p>現段階のプリクラの実際の画面</p>
       </div>
       <BackToTop />
